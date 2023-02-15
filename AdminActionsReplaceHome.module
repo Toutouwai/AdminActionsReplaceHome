@@ -4,7 +4,7 @@ class AdminActionsReplaceHome extends WireData implements Module {
     public static function getModuleInfo() {
         return array(
             'title' => 'Replace Home',
-            'summary' => 'Replaces the template and content of the home page with that of a selected page. An addon action for Admin Actions module.',
+            'summary' => 'Replaces the template and content of the home page with that of a selected page. An addon action for the Admin Actions module.',
             'version' => '0.1.0',
             'author' => 'Robin Sallis',
             'href' => 'https://github.com/Toutouwai/AdminActionsReplaceHome',
