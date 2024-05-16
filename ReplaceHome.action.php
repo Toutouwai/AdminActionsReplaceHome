@@ -1,4 +1,4 @@
-<?php
+<?php namespace ProcessWire;
 class ReplaceHome extends ProcessAdminActions {
 
 	protected $description;
@@ -66,7 +66,7 @@ class ReplaceHome extends ProcessAdminActions {
 			if($field->type instanceof \ProcessWire\FieldtypeFile) {
 				foreach($sourcePage->$field as $file) {
 					/** @var \ProcessWire\Pagefile $file */
-					$homePage->$field->add($file->filename);
+					$homePage->$field->add($file);
 				}
 			}
 			// Other field

@@ -5,11 +5,11 @@ class AdminActionsReplaceHome extends WireData implements Module {
         return array(
             'title' => 'Replace Home',
             'summary' => 'Replaces the template and content of the home page with that of a selected page. An addon action for the Admin Actions module.',
-            'version' => '0.1.0',
+            'version' => '0.1.1',
             'author' => 'Robin Sallis',
             'href' => 'https://github.com/Toutouwai/AdminActionsReplaceHome',
             'icon' => 'home',
-            'requires' => 'ProcessWire>=3.0.0, ProcessAdminActions>=0.7.0',
+            'requires' => 'ProcessWire>=3.0.0, ProcessAdminActions>=0.9.0',
         );
     }
 
